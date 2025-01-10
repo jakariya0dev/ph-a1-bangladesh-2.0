@@ -186,4 +186,17 @@ nav .btn-sign-in{
     border-radius: 2.4rem;
 
 }
+
+.quote-box .quote{
+    margin-bottom: 1.6rem;
+}
+
+.quote-box .quote-author{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.quote-box .quote-designation{
+    opacity: 0.6;
+}
 /* ---------- Quote End ---------- */
