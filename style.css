@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #006A50;
+    --secondary-color: #C6E4D6;
+    --background-color: #F5F5F5;
     --text-color-dark: #0E0E0E
     --text-color-light: #fff;
 }
@@ -20,14 +22,76 @@ html, body{
     font-style: normal;
     line-height: 1;
     font-size: 10px;
+    background-color: var(--background-color);
 }
 
 a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
 .container{
     width: 80vw;
     max-width: 1140px;
     margin: auto;
 }
+
+section{
+    margin-bottom: 5rem;
+}
+
+/* Header Start */
+nav{
+    padding: 3rem 0;
+}
+
+nav .logo{
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--text-color-dark);
+    display: inline-block;
+}
+
+nav .btn-sign-in{
+    color: var(--primary-color);
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 1.5rem 3rem;
+    display: inline-block;
+    margin-left: auto;
+}
+
+#hero .container{
+    background-color: var(--secondary-color);
+    border-radius: 2.4rem;
+    display: flex;
+    padding: 8rem 6rem;
+    gap: 6.4rem;
+}
+
+.hero-content{
+    width: 60%;
+}
+
+.hero-img{
+    width: 40%;
+}
+
+.hero-content .subtitle{
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    margin-bottom: 2.4rem;
+}
+
+.hero-content .title{
+    color: var(--text-color-dark);
+    font-size: 5.6rem;
+
+}
+
+
+/* Header End */
