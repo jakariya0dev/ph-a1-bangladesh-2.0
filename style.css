@@ -18,11 +18,15 @@
 
 html, body{
     font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1;
     font-size: 10px;
     background-color: var(--background-color);
+}
+
+p{
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.6rem;
 }
 
 a{
@@ -31,6 +35,11 @@ a{
 
 img{
     width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
 }
 .container{
     width: 80vw;
@@ -42,7 +51,25 @@ section{
     margin-bottom: 5rem;
 }
 
-/* Header Start */
+.section-title{
+    font-weight: 800;
+    color: var(--text-color-dark);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section-description{
+    margin-bottom: 3.2rem;
+}
+.box-item-heading{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--text-color-dark);
+    margin: 1.6rem 0;
+}
+
+/*---------- Header Start ---------- */
+
 nav{
     padding: 3rem 0;
 }
@@ -94,4 +121,69 @@ nav .btn-sign-in{
 }
 
 
-/* Header End */
+/* ---------- Header End ---------- */
+
+/* ---------- Vision Start */
+
+.vision-boxes{
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+
+.vision-boxes .box-item{
+    flex-grow: 1;
+    padding: 3.2rem;
+    border-radius: 1.6rem;
+}
+
+.vision-boxes .box-item img{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.vision-boxes .box-item:first-child{
+    background-color: rgba(84, 143, 245, 0.212);
+}
+
+.vision-boxes .box-item:nth-child(2){
+    background-color: #C6E4D6;
+}
+
+.vision-boxes .box-item:last-child{
+    background-color: #F7EBCF;
+}
+
+.vision-boxes .box-item p{
+    margin-bottom: 1.6rem;
+}
+
+.box-item-btn{
+    color: white;
+    border-radius: 8px;
+}
+
+.vision-boxes .box-item:first-child a{
+    background-color: #5490F5;
+}
+
+.vision-boxes .box-item:nth-child(2) a{
+    background-color: #09A15C;
+}
+
+.vision-boxes .box-item:last-child a{
+    background-color: #FFC239;
+}
+/* ---------- Vision End ---------- */
+
+/* ---------- Quote Start ---------- */
+.quote-box{
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 4.8rem 2.4rem;
+    background-color: white;
+    background-position: 2.4rem 2.4rem;
+    border-radius: 2.4rem;
+
+}
+/* ---------- Quote End ---------- */
