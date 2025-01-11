@@ -41,6 +41,13 @@ img{
     display: inline-block;
     padding: 1rem 2rem;
 }
+
+.btn-primary{
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+}
+
 .container{
     width: 80vw;
     max-width: 1140px;
@@ -201,6 +208,48 @@ nav .btn-sign-in{
     opacity: 0.6;
 }
 /* ---------- Quote End ---------- */
+
+
+/* ---------- Recent News start ---------- */
+
+.news-card{
+    display: flex;
+    background-color: white;
+    padding: 4.8rem;
+    border-radius: 2.4rem;
+    gap: 3.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.news-img{
+    width: 40%;
+    border-radius: 2.4rem;
+    overflow: hidden;
+}
+
+.news-img img{
+    border-radius: 3.2rem;
+}
+
+.news-content{
+    width: 60%;
+}
+
+.news-content .news-title{
+    font-size: 3.2rem;
+}
+
+.news-content img{
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 1.2rem;
+}
+
+.news-content p{
+    margin-bottom: 1.2rem;
+}
+/* ---------- Recent News End ---------- */
+
 
 
 /* ---------- Donate start ---------- */
