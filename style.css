@@ -72,13 +72,14 @@ section{
 
 nav{
     padding: 3rem 0;
+    
 }
 
 nav .logo{
     font-size: 3.2rem;
+    display: block;
     font-weight: 500;
     color: var(--text-color-dark);
-    display: inline-block;
 }
 
 nav .btn-sign-in{
@@ -200,6 +201,62 @@ nav .btn-sign-in{
     opacity: 0.6;
 }
 /* ---------- Quote End ---------- */
+
+
+/* ---------- Donate start ---------- */
+#donate{
+    text-align: center;
+}
+
+#donate .container{
+    padding: 0 3rem;
+}
+.donation-boxes{
+    display: flex;
+    gap: 3rem;
+    margin: 3.2rem;
+}
+
+.donation-item{
+    flex-grow: 1;
+    background-color: white;
+    padding: 2rem 5rem;
+    border-radius: 1.6rem;
+    font-size: 4rem;
+    font-weight: 800;
+    transition: all 300ms;
+}
+
+.donation-item:nth-child(2){
+    background-color: var(--secondary-color);
+}
+
+.donation-item:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#donate input{
+    /* display: block; */
+    width: 90%;
+    margin: auto;
+    padding: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+#donate input::placeholder{
+    opacity: 0.7;
+    font-size: 2rem;
+}
+
+#donate a{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+}
+/* ---------- Donate End ---------- */
 
 
 /* ---------- Newsletter Start ---------- */
