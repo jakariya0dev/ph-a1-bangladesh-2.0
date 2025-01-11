@@ -120,6 +120,7 @@ nav .btn-sign-in:hover{
     background-color: var(--secondary-color);
     border-radius: 2.4rem;
     display: flex;
+    align-items: center;
     padding: 8rem 6rem;
     gap: 6.4rem;
 }
@@ -160,6 +161,7 @@ nav .btn-sign-in:hover{
     flex-grow: 1;
     padding: 3.2rem;
     border-radius: 1.6rem;
+    transition: all 300ms;
 }
 
 .vision-boxes .box-item img{
@@ -177,6 +179,10 @@ nav .btn-sign-in:hover{
 
 .vision-boxes .box-item:last-child{
     background-color: #F7EBCF;
+}
+
+.vision-boxes .box-item:hover{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
 }
 
 .vision-boxes .box-item p{
