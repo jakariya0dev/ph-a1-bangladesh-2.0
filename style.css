@@ -200,3 +200,31 @@ nav .btn-sign-in{
     opacity: 0.6;
 }
 /* ---------- Quote End ---------- */
+
+
+/* ---------- Footer start ---------- */
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 5rem 20%;
+}
+
+
+
+ footer hr {
+    border: 1px solid #ccc;
+    margin: 1rem 0 2rem 0;
+    
+}
+
+footer .social-icons{
+    text-align: center;
+}
+
+footer .social-icons img{
+    height: 2.4rem;
+    width: 2.4rem;
+    display: inline-block;
+    margin: 0 1rem;
+}
+/* ---------- Footer end ---------- */
